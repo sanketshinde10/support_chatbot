@@ -1,30 +1,76 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": ["Hi", "Hello", "Good morning", "Good evening"],
-        "responses": ["Hello! How can I assist you today?", "Hi there!"]
-      },
-      {
-        "tag": "password_reset",
-        "patterns": ["I forgot my password", "Reset my password", "Can't login"],
-        "responses": ["To reset your password, visit: https://company.com/reset"]
-      },
-      {
-        "tag": "working_hours",
-        "patterns": ["What are your working hours?", "When are you open?"],
-        "responses": ["Our support is available Mon–Fri, 9 AM to 6 PM."]
-      },
-      {
-        "tag": "contact_support",
-        "patterns": ["How can I contact support?", "Customer service number?"],
-        "responses": ["You can reach us at support@company.com or call 123-456-7890."]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": ["Goodbye! Feel free to reach out anytime."]
-      }
-    ]
-  }
-  
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! Need support with something?"
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "Reset my password",
+        "Can't login",
+        "Help me with password reset",
+        "Lost access to my account"
+      ],
+      "responses": [
+        "To reset your password, please visit: https://company.com/reset",
+        "No worries. You can reset your password here: https://company.com/reset"
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are your working hours?",
+        "When are you open?",
+        "Support timings?",
+        "Office hours",
+        "Opening time"
+      ],
+      "responses": [
+        "Our support is available Monday to Friday, 9 AM to 6 PM.",
+        "We’re open from 9 AM to 6 PM, Monday through Friday."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "Customer service number?",
+        "How do I reach support?",
+        "Need to talk to someone",
+        "Is there a support number?"
+      ],
+      "responses": [
+        "You can reach us at support@company.com or call 123-456-7890.",
+        "For help, email us at support@company.com or call 123-456-7890."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Talk to you soon",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Feel free to reach out anytime.",
+        "Take care! Let us know if you need anything else.",
+        "Bye! Have a great day!"
+      ]
+    }
+  ]
+}

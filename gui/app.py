@@ -1,4 +1,8 @@
 import tkinter as tk
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from chatbot.chat import chatbot_response
 
 # Create main window
@@ -12,9 +16,9 @@ chat_log = tk.Text(root, bd=0, bg="white", height=20, width=60, font=("Arial", 1
 chat_log.config(state=tk.DISABLED)
 chat_log.pack(padx=10, pady=10)
 
-# Entry box
-entry_box = tk.Entry(root, bd=1, bg="white", width=40, font=("Arial", 12))
-entry_box.pack(padx=10, pady=(0, 10), side=tk.LEFT, fill=tk.BOTH, expand=True)
+# Entry box (smaller height)
+entry_box = tk.Entry(root, bd=1, bg="white", width=40, font=("Arial", 10))
+entry_box.pack(padx=5, pady=(0, 5), side=tk.LEFT, ipady=2)
 
 # Function to send message
 def send_message():
