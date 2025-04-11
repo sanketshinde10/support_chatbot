@@ -1,0 +1,30 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there!"]
+      },
+      {
+        "tag": "password_reset",
+        "patterns": ["I forgot my password", "Reset my password", "Can't login"],
+        "responses": ["To reset your password, visit: https://company.com/reset"]
+      },
+      {
+        "tag": "working_hours",
+        "patterns": ["What are your working hours?", "When are you open?"],
+        "responses": ["Our support is available Mon–Fri, 9 AM to 6 PM."]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": ["How can I contact support?", "Customer service number?"],
+        "responses": ["You can reach us at support@company.com or call 123-456-7890."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye! Feel free to reach out anytime."]
+      }
+    ]
+  }
+  

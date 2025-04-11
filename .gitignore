@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+env/
+venv/
+support_chatbot_venv/
+*.conda
+*.env
+
+# VS Code, PyCharm, etc.
+.vscode/
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Model files and data cache
+models/*.h5
+models/*.pkl
+*.log
+*.ckpt
+*.pb
+*.tflite
+
+# Logs
+logs/
+*.log
+chatlog.txt
+
+# NLTK and TensorFlow datasets
+nltk_data/
+tensorflow_datasets/
+tensorflow_datasets/**
+
+# Compiled or temporary files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Backup files
+*.~*
+
+# Output
+*.out
+*.exe
+
+# __init__.py backup
+*.py~
+
+# Python egg
+*.egg-info/
+dist/
+build/
